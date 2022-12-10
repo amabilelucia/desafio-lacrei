@@ -1,6 +1,7 @@
-import React from "react";
-import { Position } from "../styles";
-import HomeImage from "../imagens/home.svg"
+import React from 'react';
+import { Position } from '../styles';
+import HomeImage from '../imagens/home.svg';
+import Footer from './Footer';
 
 export default () => {
     return (
@@ -14,6 +15,7 @@ export default () => {
 
                 <img src= {HomeImage} alt="inicio"/>
             </Position>
+            <Footer />
         </div>
     )
 };

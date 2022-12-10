@@ -84,3 +84,9 @@ export const Position = styled.h1`
 
     }
 `;
+export const Footer = styled.a`
+flex: none;
+order: 2;
+flex-grow: 0;
+
+`
