@@ -37,8 +37,8 @@ export const Position = styled.h1`
         position: absolute;
         width: 192px;
         height: 48px;
-        left: 64px;
-        top: 400px;
+        left: 0px;
+        top: 336px;
         background: rgba(1, 135, 98, 1);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 8px;
@@ -56,8 +56,8 @@ export const Position = styled.h1`
         position: absolute;
         width: 192px;
         height: 48px;
-        left: 325px;
-        top: 400px;
+        left: 261px;
+        top: 336px;
         background: #FFFFFF;
         border: 2px solid #018762;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -84,9 +84,86 @@ export const Position = styled.h1`
 
     }
 `;
-export const Footer = styled.a`
-flex: none;
-order: 2;
-flex-grow: 0;
+export const Footer = styled.footer`
+    hr{
+        position: absolute;
+        width: 1238px;
+        height: 1px;
+        left: 63.94px;
+        top: 561px;
+        border: 0px;
+        color: #B0E0D3;
+        background: #B0E0D3;
+    }
+    ul{
+        width: 100%;
+        position: absolute;
+        left: 64px;
+        padding-inline-start: 0px;
+        top: 644px;
+        li{
+             height: 60px;
+             display: inline-block;
+             padding-right: 32px;
+         }
+    }
+    ul2{
+        width: 100%;
+        position: absolute;
+        left: 64px;
+        padding-inline-start: 0px;
+        top: 594px;
+        lu{
+             height: 60px;
+             display: inline-block;
+             padding-right: 32px;
+             font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #1F1F1F;
+         }
+    } 
+`;
 
-`
+export const Header = styled.header`
+    width:  1366px;
+    position: absolute;
+    text-align: right;
+    padding-inline-start: 0px;
+    top: 0px;
+    background: #EEEEEE;
+    height: 60px;
+    margin: 0px;
+
+    div{
+        a{
+            position: absolute;
+            width: 89px;
+            height: 44.75px;
+            left: 64px;
+            top: 8px;
+        }
+    }
+
+    ul{
+        margin:0px;
+        padding:0px;
+        li{
+        height: 60px;
+        display: inline-block;
+        padding-left: 20px;
+        height: 60px;
+        display: inline-block;
+        padding-right: 32px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #1F1F1F;  
+        }
+    }
+    
+`;
